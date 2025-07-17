@@ -1,0 +1,56 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to bottom,rgb(3, 187, 243) 0%, rgba(3, 241, 102, 0.952)100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cs-input,.cs-date{
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+h1{
+  color: rgb(1, 1, 87);
+}
+.cs-add{
+  padding: 10px ;
+  border: none;
+  color: white;
+  background-color: rgb(11, 126, 11);
+  cursor: pointer;
+  font-size: 15px;
+}
+.cs-grid{
+  background: linear-gradient(to right,rgb(3, 187, 243),rgb(4, 247, 166), rgba(3, 241, 102, 0.952));
+  
+}
+.cs-grid,.cs-input-grid{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+}
+.cs-input-grid{
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+.cs-delete{
+  background-color: red;
+  border: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+.div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px white solid;
+  width:500px;
+  height: 500px;
+  border-radius: 20px;
+
+}
