@@ -1,8 +1,5 @@
 
-    const todo =[{
-      name: 'make dinner',
-      dueDate:'2025-04-17'
-    }];
+    const todo =[];
     
     renderTodo();
 
