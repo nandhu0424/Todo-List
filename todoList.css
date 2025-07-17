@@ -48,7 +48,6 @@ h1{
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px white solid;
   width:500px;
   height: 500px;
   border-radius: 20px;
